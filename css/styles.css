@@ -78,6 +78,8 @@ a:hover {
   background-color: black;
   padding-bottom: 1px;
 }
-
+.footer {
+  margin-top: 15px;
+}
 
 /********************* ID SELECTORS *********************/
