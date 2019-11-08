@@ -1,13 +1,28 @@
 /********************* TAG SELECTORS *********************/
 body {
-  color: white;
+  background-color: black;
+  color: #87a8d0;;
   margin: 0;
   text-align: center;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+h1 {
+  font-size: 4.1rem
+}
+h2 {
+  font-size: 2.2rem;
   font-family: 'Merriweather', serif;
 }
 hr {
   margin: 0;
   border-color: #e8e8e8;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 /******************** CLASS SELECTORS ********************/
@@ -21,6 +36,9 @@ hr {
   right: 300px;
   top: 50px;
 }
+.intro-name {
+  color: white;
+}
 .bottom-cloud {
   position: absolute;
   left: 300px;
@@ -33,13 +51,32 @@ hr {
 /* middle */
 .middle-container {
   background-color: #011244;
-  height: 200px;
   padding-top: 01px;
+  padding-bottom: 1px;
+}
+.profile-picture {
+  border-radius:50%;
+  height: 250px;
+  width: 250px;
+}
+.skill-row {
+  line-height: 2;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  width: 50%;
+}
+.skill-image {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-image:hover {
+  background-color: #89a3b2;
 }
 /* bottom */
 .bottom-container {
   background-color: black;
-  height: 200px;
+  padding-bottom: 1px;
 }
 
 
